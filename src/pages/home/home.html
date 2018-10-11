@@ -1,14 +1,71 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Repaso
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-row>
+  <ion-col>
+  <ion-card (click)= "click1()">
+
+    <ion-card-header>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <!-- Add card content here! -->
+    </ion-card-content>
+  
+  </ion-card>
+  </ion-col>
+  <ion-col>
+  <button ion-button block (click)= "click2()">Button</button>
+  </ion-col>
+  <ion-col>
+  <button ion-button block>Button</button>
+  </ion-col>
+  </ion-row>
+  <ion-row>
+  <ion-col>
+  <ion-card>
+  
+    <ion-card-header>
+    </ion-card-header>
+    
+    <ion-card-content>
+      <!-- Add card content here! -->
+    </ion-card-content>
+    
+  </ion-card>
+  </ion-col>
+  <ion-col>
+  <button ion-button block>Button</button>
+  </ion-col>
+  <ion-col>
+   <button ion-button block>Button</button>
+  </ion-col>
+  </ion-row>
+  <ion-row>
+  <ion-col>
+  <ion-card>
+    
+   <ion-card-header>
+   </ion-card-header>
+      
+   <ion-card-content>
+    <!-- Add card content here! -->
+   </ion-card-content>
+      
+  </ion-card>
+  </ion-col>
+  <ion-col>
+    <button ion-button block>Button</button>
+  </ion-col>
+  <ion-col>
+    <button ion-button block>Button</button>
+  </ion-col>
+  </ion-row>
+ 
 </ion-content>
